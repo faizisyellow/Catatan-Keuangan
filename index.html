@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catatan Keuangan Rakryan</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <header>
+      <h3>Catatan Keuangan Rakryan</h3>
+    </header>
+    <main>
+      <div class="container-section-add">
+        <section id="jumlah">
+          <h6>Jumlah:</h6>
+          <form action="#">
+            <input type="text" id="jumlah-form" placeholder="Masukkan Jumlah" />
+          </form>
+        </section>
+        <section id="tipe">
+          <h6>Tipe:</h6>
+          <form action="#">
+            <input type="text" id="tipe-form" placeholder="Pilih Tipe Transaksi" />
+          </form>
+        </section>
+        <section id="deskripsi">
+          <h6>Deskirpsi:</h6>
+          <form action="#">
+            <input type="text" id="deskripsi-form" placeholder="Masukkan deskirpsi" />
+          </form>
+          <button id="button">Tambah Transaksi</button>
+        </section>
+      </div>
+      <div class="container-section-list">
+        <h4>Daftar Transaksi:</h4>
+        <table id="table">
+          <tr>
+            <th>Deskripsi</th>
+            <th>Jumlah</th>
+            <th>Tipe</th>
+          </tr>
+          <tr>
+            <td>Gaji</td>
+            <td>Rp 1000.000,00</td>
+            <td>Pemasukan</td>
+          </tr>
+        </table>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

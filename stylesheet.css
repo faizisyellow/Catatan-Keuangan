@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  padding: 4%;
+}
+header h3 {
+  text-align: center;
+}
+main {
+  margin-top: 5%;
+}
+main form input {
+  padding: 8px;
+  margin-top: 5px;
+}
+button {
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  background-color: #146bf7;
+  color: #ffff;
+}
+.container-section-add {
+  display: grid;
+  grid-template-areas:
+    "jumlah jumlah jumlah tipe"
+    "deskripsi deskripsi deskripsi desripsi";
+  gap: 10px;
+}
+#jumlah {
+  grid-area: jumlah;
+}
+#jumlah form input {
+  width: 95%;
+}
+#tipe {
+  grid-area: tipe;
+}
+#tipe form input {
+  width: 95%;
+}
+#deskripsi {
+  grid-area: deskripsi;
+  margin-top: 3%;
+}
+#deskripsi form input {
+  width: 148%;
+}
+.container-section-list {
+  margin-top: 5%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1.5%;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+td {
+  border: 1px solid #dddddd;
+  border-left: none;
+  border-right: none;
+}
